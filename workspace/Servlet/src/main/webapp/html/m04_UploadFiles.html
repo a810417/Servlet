@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+<title>Upload files</title>
+</head>
+
+<body>
+
+	<form method="post" action="../UploadFiles"
+		enctype="multipart/form-data">
+		<div id="fileBlock">
+			<!-- File 1: <input type="file" name="file1" /><br>
+			File 2: <input type="file" name="file2" /><br>
+			File 3: <input type="file" name="file3" /><br> -->
+		</div>
+
+		<br> <input type="submit" value="上傳" />
+	</form>
+
+	<br>
+	<button id="plus">+</button>
+	<script>
+		const btnPlus = document.querySelector("#plus");
+		let fileArea = document.querySelector("#fileBlock");
+		let count = 1;
+		// 方法一
+
+		btnPlus.addEventListener("click", () => {
+			var s = document.createElement("span");
+			s.innerText = `File${count++} : `;
+
+			var i = document.createElement("input");
+			i.setAttribute("type", "file");
+			i.setAttribute("name", `file${count}`);
+			var nextLint = document.createElement("br");
+			fileArea.appendChild(s);
+			fileArea.appendChild(i);
+			fileArea.appendChild(nextLint);
+		})
+		
+		// 方法二
+		/*
+		btnPlus.addEventListener("click", () => {
+			fileArea.innerHTML += `File ${count++}: <input type="file" name="file${count}" /><br>`;
+		})
+		*/
+
+
+
+	</script>
+</body>
+
+</html>

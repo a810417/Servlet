@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Get Employee data</title>
+	<style>
+	figcaption{
+	font-size:5px;
+	color: gray}
+	</style>
+</head>
+<body style="background-color:#fdf5e6" align="center">
+<h2>新增會員資料</h2>
+<form method="post" action="../InsertMem">
+	輸入員工編號 : <input type="text" name="empno" /><p>
+	輸入姓名 : <input type="text" name="ename" /><p>
+	輸入到職日 : <input type="text" name="hiredate" /><p>
+	輸入薪水 : <input type="text" name="salary" /><p>
+	<figure>
+	     輸入部門編號 : <input type="text" name="deptno" /><p>
+        <figcaption>
+                   (請輸入部門編號：IT:100, Accounting:200, Marketing:300)
+        </figcaption>
+    </figure>
+	 
+	輸入職稱 : <input type="text" name="title" /><p>
+	<input type="submit" value="確定" />
+</form>
+</body>
+</html>

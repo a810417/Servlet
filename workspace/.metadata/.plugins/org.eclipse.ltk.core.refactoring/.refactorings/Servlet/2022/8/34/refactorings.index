@@ -1,0 +1,21 @@
+1660701500762	Delete element
+1660701512290	Copy compilation unit
+1660704403168	Move 'GetParam.html' to 'html'
+1660709052190	Rename resource 'GetParam.html'
+1660793448593	Extract local variable 'context'
+1660793473306	Extract local variable 'list'
+1660793530129	Extract local variable 'file'
+1660793583579	Extract local variable 'is'
+1660793704994	Extract local variable 'reader'
+1660793792227	Extract local variable 'fields'
+1660793807739	Extract local variable 'name'
+1660793821299	Extract local variable 'address'
+1660793831683	Extract local variable 'tel'
+1660794153319	Extract local variable 'context'
+1660794290948	Extract local variable 'out'
+1660794313498	Extract local variable 'title'
+1660795026604	Delete element
+1660807015213	Extract local variable 'out'
+1660807365638	Copy compilation unit
+1660809015242	Copy compilation unit
+1660809179419	Delete element
